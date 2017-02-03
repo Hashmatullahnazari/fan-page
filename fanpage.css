@@ -1,24 +1,26 @@
 body {
     background-color: #e5f2e5;
     color: #131313;
-    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
-    
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #0ba6d1;
-    font-family: "Arial Narrow",Arial,sans-serif;
-    }
-h1{
+    font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
     text-transform: uppercase;
 }
 
-.bold{
+.bold {
     font-style: italic;
     font-size: .9em;
-    }
+}
 
-ol{
+ol {
     list-style-type: square
 }
 
@@ -27,15 +29,13 @@ ol{
     font-size: 1.3em
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-div{
+div {
     background-image: url(favicon.ico.jpeg);
 }
-
-
 
 #blue {
     background-color: #0ba6d1;
@@ -44,5 +44,3 @@ div{
 .red {
     color: red;
 }
-
-
