@@ -2,7 +2,7 @@ body {
     background-color: #e5f2e5;
     color: #131313;
     font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
-    background-image: url(image/mma.jpeg);
+    
 }
 
 h1, h2, h3{
@@ -10,7 +10,7 @@ h1, h2, h3{
     font-family: "Arial Narrow",Arial,sans-serif;
     }
 h1{
-    text transform: uppercase;
+    text-transform: uppercase;
 }
 
 .bold{
@@ -32,7 +32,7 @@ a{
 }
 
 div{
-    background-image: url(mma.jpeg);
+    background-image: url(favicon.ico.jpeg);
 }
 
 
@@ -46,4 +46,3 @@ div{
 }
 
 
-    
