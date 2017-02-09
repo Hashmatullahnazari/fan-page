@@ -2,45 +2,63 @@ body {
     background-color: #e5f2e5;
     color: #131313;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    background-color: hsla(69, 55%, 45%, 1);
+    box-shadow: 20px 20px 15px #7bfb00;
 }
+    
 
 h1,
 h2,
 h3 {
     color: #0ba6d1;
     font-family: "Arial Narrow", Arial, sans-serif;
+    margin-top: auto;
 }
+#link a {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+    }
+
 
 h1 {
     text-transform: uppercase;
+    text-shadow: 2px 2px #FF0000;
 }
 
-.bold {
+.italicize {
     font-style: italic;
     font-size: .9em;
 }
 
 ol {
-    list-style-type: square
+    list-style-type: square;
 }
 
-.increase {
-    font-weight: bold;
-    font-size: 1.3em
+    
+    
+#takedown{
+    background-image: url(images/takedown.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
-a {
-    text-decoration: none;
-}
-
-div {
-    background-image: url(favicon.ico.jpeg);
-}
-
-#blue {
-    background-color: #0ba6d1;
-}
 
 .red {
     color: red;
 }
+
+main{
+    width: 80%;
+    text-align: center;
+    padding: none;
+}
+    
+#Content{
+    background-color: transparent;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    }
+
+
+
