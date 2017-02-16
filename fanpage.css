@@ -1,25 +1,26 @@
 body {
-    background-color: #e5f2e5;
+    background-color: rgba(241, 249, 248, 1);
     color: #131313;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    background-color: hsla(69, 55%, 45%, 1);
-    box-shadow: 20px 20px 15px #7bfb00;
+    box-shadow: 20px 20px 15px #00FA9A;
 }
-    
 
 h1,
 h2,
 h3 {
     color: #0ba6d1;
     font-family: "Arial Narrow", Arial, sans-serif;
-    margin-top: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
+
 #link a {
     font-weight: bold;
     font-size: 1.3em;
     text-decoration: none;
-    }
-
+}
 
 h1 {
     text-transform: uppercase;
@@ -35,30 +36,40 @@ ol {
     list-style-type: square;
 }
 
-    
-    
-#takedown{
+#takedown {
     background-image: url(images/takedown.jpg);
     background-position: right;
     background-repeat: no-repeat;
 }
 
-
 .red {
     color: red;
 }
 
-main{
+main {
     width: 80%;
-    text-align: center;
-    padding: none;
+    margin: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
-    
-#Content{
-    background-color: transparent;
+
+#Content {
+    background-color: rgba(125, 252, 225, 1);
+    opacity: 0.9;
     padding-top: 0.5px;
     padding-bottom: 0.5px;
-    }
+}
 
+#eyes {
+    width: 100%;
+    position: fixed;
+    position: absolute
+}
 
-
+#headkick {
+    float: right;
+    margin: 22px 22px 5px 5px;
+    border: 1px solid #000000;
+}
